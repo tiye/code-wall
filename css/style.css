@@ -1,0 +1,43 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    -webkit-perspective: 9000px;
+    transform-style: preserve-3d;
+    display: flex;
+    flex-direction: column;
+    -webkit-perspective-origin: 50% 0%;
+}
+
+#app {
+    -webkit-column-count: 8;
+    -webkit-transform: scale(0.25) rotateX(-56deg);
+    font-size: 15px;
+    font-family: monospace;
+    white-space: pre-line;
+    -webkit-transform-origin: 0% 0%;
+    width: 8000px;
+    box-shadow: 0 0 3px gray;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: gray;
+}
+
+.file {
+    border: solid rgb(235, 235, 235);
+    border-width: 2px 10px;
+    font-weight: bold;
+    line-height: 23px;
+    text-shadow: 0 0 6px gray;
+}
+
+.name {
+    background: rgb(240, 240, 240);
+    padding: 2px 4px;
+}
+
+.content {
+    padding: 2px 4px;
+}

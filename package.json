@@ -1,0 +1,23 @@
+{
+  "name": "code-wall",
+  "version": "0.0.0",
+  "description": "Code Wall ------",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiyinyiyong/code-wall.git"
+  },
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/code-wall/issues"
+  },
+  "homepage": "https://github.com/jiyinyiyong/code-wall",
+  "devDependencies": {
+    "mission": "0.0.6",
+    "shelljs": "^0.3.0"
+  }
+}
